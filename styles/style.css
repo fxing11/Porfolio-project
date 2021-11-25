@@ -61,13 +61,13 @@ h1 {
   padding: 160px 20px;
 }
 
+.about-section img {
+  max-height: 400px;
+  margin-left: 60px;
+}
 .about-section h2 {
   font-size: 64px;
   line-height: 1.5;
-}
-
-.about-section img {
-  max-width: 450px;
 }
 
 .about-section h2 {
@@ -122,5 +122,8 @@ h1 {
   .about-section {
     text-align: center;
     padding: 0;
+  }
+  .about-section img {
+    margin: 0;
   }
 }
